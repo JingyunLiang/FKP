@@ -32,7 +32,7 @@ To train FKP, run this command:
 cd FKP
 python main.py --train --sf 2
 ```
-Pretrained FKP and [USRNet]((https://github.com/cszn/KAIR)) are already provided in `data/pretrained_models`.
+Pretrained FKP and [USRNet](https://github.com/cszn/KAIR) are already provided in `data/pretrained_models`.
 
 
 ## DIP-FKP
