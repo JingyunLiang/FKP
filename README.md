@@ -7,7 +7,7 @@ This repository is the official PyTorch implementation of Flow-based Kernel Prio
 
 > Kernel estimation is one of the key problems in some blind image super-resolution (SR) methods, among which Double-DIP and KernelGAN have shown great promise. Double-DIP models the kernel via a network architecture prior, while KernelGAN employs deep linear network and several regularization losses to constrain the kernel space. As a result, there is still room for improvement as they fail to fully exploit the general SR kernel prior assumption. To address this issue, this paper proposes a normalizing flow network, dubbed FKP, for kernel prior modeling. By learning an invertible mapping between the complex anisotropic kernel distribution and a tractable Gaussian distribution, FKP can be easily used to replace the kernel modeling modules of both Double-DIP and KernelGAN. Specifically, FKP optimizes the kernel in the Gaussian distribution constrained network input space rather than the network parameter space, which allows it to traverse the learned kernel manifold and search for the best kernel prediction. Extensive experiments on synthetic and real-world images demonstrate that the proposed FKP can enable Double-DIP and KernelGAN to produce more accurate and stable kernel estimation.
 ><p align="center">
-  <img height="150" src="./data/illustrations/FKP.png"><img height="150" src="./data/illustrations/DIPFKP.png"><img height="150" src="./data/illustrations/KernelGANFKP.png">
+  <img height="120" src="./data/illustrations/FKP.png"><img height="120" src="./data/illustrations/DIPFKP.png"><img height="120" src="./data/illustrations/KernelGANFKP.png">
 </p>
 
 ## Requirements
