@@ -22,7 +22,7 @@ cd data
 python prepare_dataset.py --model DIPFKP --sf 2 --dataset Set5
 python prepare_dataset.py --model KernelGANFKP --sf 2 --dataset DIV2K
 ```
-Commonly used datasets can be downloaded [here](https://github.com/xinntao/BasicSR/blob/master/docs/DatasetPreparation.md#common-image-sr-datasets). Note that KernelGAN/KernelGAN-FKP uses analytic X4 kernel based on X2, and do not support X3.
+Commonly used datasets can be downloaded [here](https://github.com/xinntao/BasicSR/blob/master/docs/DatasetPreparation.md#common-image-sr-datasets). Note that KernelGAN/KernelGAN-FKP use analytic X4 kernel based on X2, and do not support X3.
 
 ## FKP
 
