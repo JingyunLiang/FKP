@@ -3,7 +3,7 @@
 
 This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution.
 
-[paper](https://arxiv.org/abs/2030.12345) | [supplementary material](https://arxiv.org/abs/2030.12345)
+[arxiv](https://arxiv.org/abs/2030.12345)
 
 > Kernel estimation is one of the key problems in some blind image super-resolution (SR) methods, among which Double-DIP and KernelGAN have shown great promise. Double-DIP models the kernel via a network architecture prior, while KernelGAN employs deep linear network and several regularization losses to constrain the kernel space. As a result, there is still room for improvement as they fail to fully exploit the general SR kernel prior assumption. To address this issue, this paper proposes a normalizing flow network, dubbed FKP, for kernel prior modeling. By learning an invertible mapping between the complex anisotropic kernel distribution and a tractable Gaussian distribution, FKP can be easily used to replace the kernel modeling modules of both Double-DIP and KernelGAN. Specifically, FKP optimizes the kernel in the Gaussian distribution constrained network input space rather than the network parameter space, which allows it to traverse the learned kernel manifold and search for the best kernel prediction. Extensive experiments on synthetic and real-world images demonstrate that the proposed FKP can enable Double-DIP and KernelGAN to produce more accurate and stable kernel estimation.
 ><p align="center">
@@ -37,7 +37,7 @@ Pretrained FKP and [USRNet](https://github.com/cszn/KAIR) are already provided i
 
 ## DIP-FKP
 
-To test DIP-FKP, run this command:
+To test DIP-FKP (no training phase), run this command:
 
 ```bash
 cd DIPFKP
@@ -47,7 +47,7 @@ python main.py --SR --sf 2 --dataset Set5
 
 ## KernelGAN-FKP
 
-To test KernelGAN-FKP, run this command:
+To test KernelGAN-FKP (no training phase), run this command:
 
 ```bash
 cd KernelGANFKP
@@ -55,7 +55,7 @@ python main.py --SR --sf 2 --dataset DIV2K
 ```
 
 ## Results
-Please refer to the [paper](https://arxiv.org/abs/2030.12345) and the [supplementary material](https://arxiv.org/abs/2030.12345) for results. Since both DIP-FKP and KernelGAn-FKP are randomly intialized, different runs may get slightly different results. The reported results are averages of 5 runs.
+Please refer to the [paper](https://arxiv.org/abs/2030.12345) for results. Since both DIP-FKP and KernelGAn-FKP are randomly intialized, different runs may get slightly different results. The reported results are averages of 5 runs.
 
 
 
