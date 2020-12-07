@@ -1,7 +1,8 @@
 
 # Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP)
 
-This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution [(arxiv link)](https://arxiv.org/abs/2030.12345).
+This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution 
+([arxiv link](https://arxiv.org/abs/2030.12345)).
 
  :rocket:  :rocket:  :rocket: **News**: 
  - Dec. 07, 2020: See another work on spatially variant blind SR kernel estimation [here](https://github.com/JingyunLiang/MANet).
