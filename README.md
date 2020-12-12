@@ -19,6 +19,14 @@ This repository is the official PyTorch implementation of Flow-based Kernel Prio
 - Requirements: opencv-python, tqdm
 - Platforms: Ubuntu 16.04, cuda-10.0 & cuDNN v-7.5
 
+
+## Quick Run
+To run the code without preparing data, run this command:
+```bash
+cd DIPFKP
+python main.py --SR --sf 4 --dataset Test
+```
+
 ## Data Preparation
 To prepare testing data, please organize images as `data/datasets/DIV2K/HR/0801.png`, and run this command:
 ```bash
