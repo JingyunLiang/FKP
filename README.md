@@ -1,15 +1,17 @@
 
-# Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP)
+# Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP), CVPR2021
 
 This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution 
 ([arxiv link](https://arxiv.org/abs/2030.12345)).
 
- :rocket:  :rocket:  :rocket: **News**: 
+<!--
+:rocket:  :rocket:  :rocket: **News**: 
  - Dec. 07, 2020: See another work on spatially variant blind SR kernel estimation [here](https://github.com/JingyunLiang/MANet).
+<!--
  
  ---
 
-> Kernel estimation is the core part of blind image super-resolution (SR). While existing methods capture kernel statistics by either network architecture prior, or deep linear network, there are still gaps toward a powerful kernel prior that models the kernel distribution. In this paper, we propose a flow-based kernel prior (FKP) network for kernel modeling. By employing normalizing flow, it learns an invertible mapping between the complex kernel distribution and a tractable latent distribution, and can be easily integrated into existing blind SR methods such as Double-DIP and KernelGAN. Specifically, instead of starting with random initialization and optimizing slowly, FKP traverses the learned kernel manifold and searches for the best kernel prediction. This is formulated by optimizing the latent variable under the guidance of kernel estimation loss (e.g., LR image reconstruction error). FKP can generate reasonable kernel initialization and enable stable optimization, thus giving accurate kernel estimation. Extensive experiments on synthetic and real-world images demonstrate that FKP improves the kernel estimation performance, and leads to state-of-the-art results in blind SR.
+> Kernel estimation is the core part of blind image super-resolution (SR). While existing methods capture kernel statistics by either network architecture prior, or deep linear network, there are still gaps toward a powerful kernel prior that models the kernel distribution. In this paper, we propose a flow-based kernel prior (FKP) network for kernel modeling. By employing normalizing flow, it learns an invertible mapping between the complex kernel distribution and a tractable latent distribution, and can be easily integrated into existing blind SR methods such as Double-DIP and KernelGAN. Specifically, instead of starting with random initialization and optimizing slowly, FKP traverses the learned kernel manifold and searches for the best kernel prediction. This is formulated by optimizing the latent variable under the guidance of kernel estimation loss (\eg, LR image reconstruction error). FKP can generate reasonable kernel initialization and enable stable optimization, thus giving accurate kernel estimation. Extensive experiments on synthetic and real-world images demonstrate that FKP improves the kernel estimation performance, and leads to state-of-the-art results in blind SR.
 ><p align="center">
   > <img height="120" src="./data/illustrations/FKP.png"><img height="120" src="./data/illustrations/DIPFKP.png"><img height="120" src="./data/illustrations/KernelGANFKP.png">
 </p>
