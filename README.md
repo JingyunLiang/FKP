@@ -6,7 +6,7 @@ This repository is the official PyTorch implementation of Flow-based Kernel Prio
 
 <!--
 :rocket:  :rocket:  :rocket: **News**: 
- - Dec. 07, 2020: See another work on spatially variant blind SR kernel estimation [here](https://github.com/JingyunLiang/MANet).
+ - Dec. 07, 2020: See another work 
 -->
  
  ---
