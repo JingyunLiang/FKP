@@ -2,7 +2,7 @@
 # Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP), CVPR2021
 
 This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution 
-([paper](https://arxiv.org/abs/2030.12345), [supplementary](https://arxiv.org/abs/2030.12345)).
+([arxiv](https://arxiv.org/abs/2030.12345)).
 
 <!--
 :rocket:  :rocket:  :rocket: **News**: 
