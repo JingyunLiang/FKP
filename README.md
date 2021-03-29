@@ -76,13 +76,12 @@ Please refer to the [paper](https://arxiv.org/abs/2030.12345) for results. Since
 
 
 ## Citation
-    @InProceedings{FKP,
-        author = {},
-        title = {Flow-based Kernel Prior with Application to Blind Super-Resolution},
-        booktitle = {},
-        month = {},
-        year = {}
-    }
+@article{liang21fkp,
+  title={Flow-based Kernel Prior with Application to Blind Super-Resolution},
+  author={Liang, Jingyun and Zhang, Kai and Gu, Shuhang and Van Gool, Luc and Timofte, Radu},
+  journal={arXiv preprint arXiv:2103.14006},
+  year={2021}
+}
 
 
 ## License & Acknowledgement
