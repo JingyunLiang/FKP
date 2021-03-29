@@ -6,12 +6,12 @@ This repository is the official PyTorch implementation of Flow-based Kernel Prio
 
 <!--
 :rocket:  :rocket:  :rocket: **News**: 
- - Dec. 07, 2020: See another work 
+ - Dec. 07, 2020: See 
 -->
  
  ---
 
-> Kernel estimation is the core part of blind image super-resolution (SR). While existing methods capture kernel statistics by either network architecture prior, or deep linear network, there are still gaps toward a powerful kernel prior that models the kernel distribution. In this paper, we propose a flow-based kernel prior (FKP) network for kernel modeling. By employing normalizing flow, it learns an invertible mapping between the complex kernel distribution and a tractable latent distribution, and can be easily integrated into existing blind SR methods such as Double-DIP and KernelGAN. Specifically, instead of starting with random initialization and optimizing slowly, FKP traverses the learned kernel manifold and searches for the best kernel prediction. This is formulated by optimizing the latent variable under the guidance of kernel estimation loss (\eg, LR image reconstruction error). FKP can generate reasonable kernel initialization and enable stable optimization, thus giving accurate kernel estimation. Extensive experiments on synthetic and real-world images demonstrate that FKP improves the kernel estimation performance, and leads to state-of-the-art results in blind SR.
+> Kernel estimation is generally one of the key problems for blind image super-resolution (SR). Recently, Double-DIP proposes to model the kernel via a network architecture prior, while KernelGAN employs the deep linear network and several regularization losses to constrain the kernel space. However, they fail to fully exploit the general SR kernel assumption that anisotropic Gaussian kernels are sufficient for image SR. To address this issue, this paper proposes a normalizing flow-based kernel prior (FKP) for kernel modeling. By learning an invertible mapping between the anisotropic Gaussian kernel distribution and a tractable latent distribution, FKP can be easily used to replace the kernel modeling modules of Double-DIP and KernelGAN. Specifically, FKP optimizes the kernel in the latent space rather than the network parameter space, which allows it to generate reasonable kernel initialization, traverse the learned kernel manifold and improve the optimization stability. Extensive experiments on synthetic and real-world images demonstrate that the proposed FKP can significantly improve the kernel estimation accuracy with less parameters, runtime and memory usage, leading to state-of-the-art blind SR results.
 ><p align="center">
   > <img height="120" src="./data/illustrations/FKP.png"><img height="120" src="./data/illustrations/DIPFKP.png"><img height="120" src="./data/illustrations/KernelGANFKP.png">
 </p>
