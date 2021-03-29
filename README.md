@@ -2,7 +2,7 @@
 # Flow-based Kernel Prior with Application to Blind Super-Resolution (FKP), CVPR2021
 
 This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution 
-([arxiv](https://arxiv.org/abs/2030.12345)).
+([arxiv](https://arxiv.org/abs/2030.12345), [supp](https://github.com/JingyunLiang/FKP/releases/tag/supp)).
 
 <!--
 :rocket:  :rocket:  :rocket: **News**: 
@@ -71,7 +71,7 @@ python main.py --SR --sf 2 --dataset DIV2K
 ```
 
 ## Results
-Please refer to the [paper](https://arxiv.org/abs/2030.12345) for results. Since both DIP-FKP and KernelGAn-FKP are randomly intialized, different runs may get slightly different results. The reported results are averages of 5 runs.
+Please refer to the [paper](https://arxiv.org/abs/2030.12345) and [supplementary](https://github.com/JingyunLiang/FKP/releases/tag/supp) for results. Since both DIP-FKP and KernelGAn-FKP are randomly intialized, different runs may get slightly different results. The reported results are averages of 5 runs.
 
 
 
