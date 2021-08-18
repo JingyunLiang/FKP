@@ -4,10 +4,10 @@
 This repository is the official PyTorch implementation of Flow-based Kernel Prior with Application to Blind Super-Resolution 
 ([arxiv](https://arxiv.org/pdf/2103.15977.pdf), [supp](https://github.com/JingyunLiang/FKP/releases/tag/supp)).
 
-<!--
 :rocket:  :rocket:  :rocket: **News**: 
- - Dec. 07, 2020: See 
--->
+ - Aug. 18, 2021: See our recent work for spatially variant kernel estimation: [Mutual Affine Network for Spatially Variant Kernel Estimation in Blind Image Super-Resolution (MANet), ICCV2021](https://github.com/JingyunLiang/MANet)
+ - Aug. 18, 2021: See our recent work for flow-based image SR: [Hierarchical Conditional Flow: A Unified Framework for Image Super-Resolution and Image Rescaling (HCFlow), ICCV2021](https://github.com/JingyunLiang/HCFlow)
+ - Aug. 18, 2021: See our recent work for real-world image SR: [Designing a Practical Degradation Model for Deep Blind Image Super-Resolution (BSRGAN), ICCV2021](https://github.com/cszn/BSRGAN)
  
  ---
 
